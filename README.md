@@ -100,13 +100,13 @@ space-portfolio/
 
 ## :camera: Screenshots:
 
-![Modern UI/UX](/.github/images/img1.png "Modern UI/UX")
+![Modern UI/UX](.github/images/image1.png)
 
-![Showcase your skills](/.github/images/img2.png "Showcase your skills")
+![Showcase your skills](.github/images/image2.png)
 
-![Built with Typescript](/.github/images/img3.png "Built with Typescript")
+![Built with Typescript](.github/images/image3.png)
 
-![Showcase your projects](/.github/images/img4.png "Showcase your projects")
+![Showcase your projects](.github/images/image4.png)
 
 ## :gear: Tech Stack
 
