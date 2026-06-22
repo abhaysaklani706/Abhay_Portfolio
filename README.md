@@ -46,6 +46,8 @@ Here is the folder structure of this app.
 <!--- FOLDER_STRUCTURE_START --->
 ```bash
 space-portfolio/
+  |- .firebase/
+    |-- hosting.b3V0.cache
   |- app/
     |-- apple-icon.png
     |-- favicon.ico
@@ -61,13 +63,19 @@ space-portfolio/
     |-- index.ts
   |- constants/
     |-- index.ts
+  |- dist/
+    |-- dev/
   |- lib/
+    |-- email.ts
     |-- motion.ts
     |-- utils.ts
   |- public/
+  |- .env
   |- .eslintrc.json
+  |- .firebaserc
   |- .gitignore
   |- eslint.config.mjs
+  |- firebase.json
   |- netlify.toml
   |- next.config.js
   |- package-lock.json
@@ -117,6 +125,7 @@ You might encounter some bugs while using this app. You are more than welcome to
 Useful resources and dependencies that are used in Space Portfolio.
 
 <!--- DEPENDENCIES_START --->
+- [@emailjs/browser](https://www.npmjs.com/package/@emailjs/browser): ^4.4.1
 - [@heroicons/react](https://www.npmjs.com/package/@heroicons/react): ^2.2.0
 - [@react-three/drei](https://www.npmjs.com/package/@react-three/drei): ^10.7.7
 - [@react-three/fiber](https://www.npmjs.com/package/@react-three/fiber): ^9.6.0
@@ -134,6 +143,7 @@ Useful resources and dependencies that are used in Space Portfolio.
 - [react-dom](https://www.npmjs.com/package/react-dom): 19.2.5
 - [react-icons](https://www.npmjs.com/package/react-icons): ^5.6.0
 - [react-intersection-observer](https://www.npmjs.com/package/react-intersection-observer): ^10.0.3
+- [swiper](https://www.npmjs.com/package/swiper): ^12.1.4
 - [tailwind-merge](https://www.npmjs.com/package/tailwind-merge): ^3.5.0
 - [tailwindcss](https://www.npmjs.com/package/tailwindcss): ^3.3.0
 - [three](https://www.npmjs.com/package/three): ^0.183.2
