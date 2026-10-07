@@ -61,10 +61,32 @@ space-portfolio/
   |- constants/
     |-- index.ts
   |- dist/
+    |-- _next/
+    |-- _not-found/
+    |-- 404/
     |-- dev/
+    |-- skills/
+    |-- videos/
+    |-- __next.__PAGE__.txt
+    |-- __next._full.txt
+    |-- __next._head.txt
+    |-- __next._index.txt
+    |-- __next._tree.txt
+    |-- 404.html
+    |-- ABHAY_SOFTWARE_DEVELOPER (1).pdf
+    |-- apple-icon.png
+    |-- favicon.ico
+    |-- hero-bg.svg
+    |-- icon1.png
+    |-- icon2.png
+    |-- index.html
+    |-- index.txt
+    |-- logo.png
   |- lib/
     |-- email.ts
     |-- motion.ts
+    |-- use-media.ts
+    |-- use-scroll-progress.ts
     |-- utils.ts
   |- public/
   |- .env
@@ -133,6 +155,8 @@ Useful resources and dependencies that are used in Space Portfolio.
 - [eslint](https://www.npmjs.com/package/eslint): ^10.2.0
 - [eslint-config-next](https://www.npmjs.com/package/eslint-config-next): 16.2.4
 - [framer-motion](https://www.npmjs.com/package/framer-motion): ^12.38.0
+- [gsap](https://www.npmjs.com/package/gsap): ^3.15.0
+- [lenis](https://www.npmjs.com/package/lenis): ^1.3.26
 - [next](https://www.npmjs.com/package/next): 16.2.4
 - [postcss](https://www.npmjs.com/package/postcss): ^8
 - [react](https://www.npmjs.com/package/react): 19.2.5
