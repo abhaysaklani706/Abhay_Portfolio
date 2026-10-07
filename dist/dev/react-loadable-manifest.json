@@ -1,4 +1,18 @@
 {
+  "components\\main\\skills.tsx -> @/components/sub/skills-scene": {
+    "id": "components\\main\\skills.tsx -> @/components/sub/skills-scene",
+    "files": [
+      "static/chunks/vendors.js",
+      "static/chunks/_app-pages-browser_components_sub_skills-scene_tsx.js"
+    ]
+  },
+  "components\\sub\\hero-content.tsx -> @/components/sub/hero-orb": {
+    "id": "components\\sub\\hero-content.tsx -> @/components/sub/hero-orb",
+    "files": [
+      "static/chunks/vendors.js",
+      "static/chunks/_app-pages-browser_components_sub_hero-orb_tsx.js"
+    ]
+  },
   "node_modules\\@react-three\\drei\\core\\VideoTexture.js -> hls.js": {
     "id": "node_modules\\@react-three\\drei\\core\\VideoTexture.js -> hls.js",
     "files": []

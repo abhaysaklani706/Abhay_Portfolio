@@ -14,7 +14,7 @@ export const StarBackground = (props: PointsInstancesProps) => {
   const ref = useRef<PointsType | null>(null);
   const [sphere] = useState(() => {
     // Create safe positions without NaN values
-    const positions = new Float32Array(5000 * 3); // x, y, z for each star
+    const positions = new Float32Array(2000 * 3); // x, y, z for each star
     for (let i = 0; i < positions.length; i += 3) {
       // Generate random spherical coordinates
       const theta = Math.random() * Math.PI * 2;
@@ -41,7 +41,7 @@ export const StarBackground = (props: PointsInstancesProps) => {
       <Points
         ref={ref}
         stride={3}
-        positions={new Float32Array(sphere)}
+        positions={sphere}
         frustumCulled
         {...props}
       >
@@ -59,7 +59,11 @@ export const StarBackground = (props: PointsInstancesProps) => {
 
 export const StarsCanvas = () => (
   <div className="w-full h-auto fixed inset-0 -z-10">
-    <Canvas camera={{ position: [0, 0, 1] }}>
+    <Canvas
+      camera={{ position: [0, 0, 1] }}
+      dpr={[1, 1.25]}
+      gl={{ antialias: false, powerPreference: "high-performance" }}
+    >
       <Suspense fallback={null}>
         <StarBackground />
       </Suspense>

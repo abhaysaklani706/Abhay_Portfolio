@@ -1,8 +1,6 @@
 import {
-  RxDiscordLogo,
   RxGithubLogo,
   RxInstagramLogo,
-  RxTwitterLogo,
   RxLinkedinLogo,
 } from "react-icons/rx";
 
@@ -207,17 +205,12 @@ export const CERTIFICATIONS = [
 
 export const FOOTER_DATA = [
   {
-    title: "Community",
+    title: "Code",
     data: [
             {
         name: "GitHub",
         icon: RxGithubLogo,
         link: "https://github.com/abhaysaklani706",
-      },
-      {
-        name: "Discord",
-        icon: RxDiscordLogo,
-        link: "https://discord.com",
       },
     ],
   },
@@ -230,11 +223,6 @@ export const FOOTER_DATA = [
         link: "https://instagram.com/abhaysa1",
       },
       {
-        name: "Twitter",
-        icon: RxTwitterLogo,
-        link: "https://x.com/_sanidhyy",
-      },
-      {
         name: "LinkedIn",
         icon: RxLinkedinLogo,
         link: "https://www.linkedin.com/in/abhay-saklani-b23389217/",
@@ -245,7 +233,7 @@ export const FOOTER_DATA = [
     title: "About",
     data: [
       {
-        name: "Become Sponsor",
+        name: "YouTube",
         icon: null,
         link: "https://youtube.com/@abhaysaklani29",
       },
@@ -278,7 +266,7 @@ export const NAV_LINKS = [
   },
   {
     title: "Experience",
-    link: "#encryption",
+    link: "#experience",
   },
   {
     title: "Projects",
@@ -291,6 +279,6 @@ export const NAV_LINKS = [
 ] as const;
 
 export const LINKS = {
-  sourceCode: "https://github.com/abhaysaklani706/portfolio",
+  sourceCode: "https://github.com/abhaysaklani706/Abhay_Portfolio",
   resume: "/ABHAY_SOFTWARE_DEVELOPER (1).pdf",
 };

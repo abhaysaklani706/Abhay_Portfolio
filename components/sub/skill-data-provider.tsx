@@ -50,7 +50,7 @@ export const SkillDataProvider = ({
       }}
     >
       {/* Creative Card Background with Gradient Effects */}
-      <div className="relative bg-gradient-to-br from-white/20 via-white/15 to-white/8 backdrop-blur-lg rounded-3xl p-6 border border-white/40 shadow-2xl hover:shadow-4xl transition-all duration-500 w-32 h-32 flex items-center justify-center overflow-hidden">
+      <div className="relative bg-gradient-to-br from-white/20 via-white/15 to-white/8 rounded-3xl p-6 border border-white/40 shadow-2xl hover:shadow-4xl transition-all duration-500 w-32 h-32 flex items-center justify-center overflow-hidden">
         
         {/* Animated Gradient Overlay */}
         <div className="absolute inset-0 bg-gradient-to-br from-purple-600/15 via-pink-600/10 to-cyan-600/15 rounded-3xl opacity-0 group-hover:opacity-30 transition-all duration-700" />
